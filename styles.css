@@ -153,7 +153,7 @@ nav {
 /* features */
 .features{
   display: flex;
-  padding-top: 20px;
+  padding-top: 100px;
   margin-right: 50px
 }
 .feature-content{
@@ -176,4 +176,64 @@ nav {
 .icon{
   color: #767ef4;
   margin-bottom: 1rem;
+}
+
+.rectangle1{
+  position: absolute;
+width: 608px;
+height: 306px;
+left: 800px;
+top: 135px;
+background: #1E1E1E;
+border-radius: 20px;
+}
+
+.rectangle2{
+  position: absolute;
+width: 608px;
+height: 127px;
+left: 800px;
+top: 320px;
+background: #16C1C1;
+border-radius: 0px 0px 20px 20px;
+}
+
+.rectangle3{
+  position: absolute;
+width: 60px;
+height: 38px;
+left: 835px;
+top: 220px;
+background: #DBAF10;
+border-radius: 10px;
+}
+
+.rectangle4{
+  position: absolute;
+width: 608px;
+height: 306px;
+left: 600px;
+top: 500px;
+background: #1E1E1E;
+border-radius: 20px;
+}
+
+.rectangle5{
+  position: absolute;
+width: 608px;
+height: 127px;
+left: 600px;
+top: 679px;
+background: #8A16C1;
+border-radius: 0px 0px 20px 20px;
+}
+
+.rectangle6{
+  position: absolute;
+width: 60px;
+height: 38px;
+left: 630px;
+top: 580px;
+background: #DBAF10;
+border-radius: 10px;
 }
