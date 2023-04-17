@@ -1,0 +1,163 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    flex: 0 0 auto;
+  }
+  
+  .navbar-menu {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar-menu li {
+    margin: 0 20px;
+    font-size: medium;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #333;
+    
+  }
+  
+  .navbar-button {
+    flex: 0 0 auto;
+  }
+
+  /* navbar button */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid black;
+    
+    transition: background-color 0.2s;
+  }
+  
+  .button-capsule {
+    background-color: #ffffff;
+    
+  }
+  
+  .button-capsule:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+
+  /* hero section */
+
+  .hero-banner {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 350px;
+    padding: 160px;
+}
+
+.hero-text {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 50px;
+    color: #333;
+    padding-top: 140px;
+}
+
+.hero-small{
+    font-size: 18px ;
+    font-weight: lighter;
+  
+    padding-top: 30px ;
+    color:#969696;
+}
+
+/* hero section btn */
+.hero-button{
+  display: flex;
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+.hero-button-capsule{
+     display: inline-block;
+			padding: 10px 20px;
+			margin-right: 20px;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: normal;
+			border-radius: 50px;
+			cursor: pointer;
+
+}
+.btn1{
+  color: #ffffff;
+  background-color: #000000bb;
+}
+
+.btn1:hover{
+  color:#000000;
+  background-color: #fff;
+}
+
+.btn2:hover{
+  background-color:#000000;
+  color: #fff;
+}
+/* user stat */
+.user-stat{
+     background-color: #fff;
+			padding: 160px 165px 0px;
+			font-size: 24px;
+			color: #333;
+}
+.stat{
+  font-size: 45px;
+  font-weight: bolder;
+  color: #343333d8;
+}
+.stat-text{
+  font-size: 18px;
+  font-weight: light;
+  color:#969696;
+  padding-top: 0;
+}
+
+/* features */
+.features{
+  display: flex;
+  padding-top: 20px;
+  margin-right: 50px
+}
+.feature-content{
+			padding: 100px 20px 20px 160px;
+			margin-right: 20px;
+}
+
+.feature-heading{
+ font-size: 30px;
+ font-weight: bolder;
+ color: #252424c9;
+}
+
+.feature-text{
+  font-size: 18px ;
+  font-weight: lighter;
+  color:#969696;
+}
+.icon{
+  color: #767ef4;
+  margin-bottom: 1rem;
+}
